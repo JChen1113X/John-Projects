@@ -1,0 +1,263 @@
+2018-09-24 12:32:50,567 DEBUG [Main.lambda$run$0] Arguments: [-ioc, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc, -xdm, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.wb_def]
+2018-09-24 12:32:50,567 DEBUG [ArgsValue.readPropertiesFile] [AppConfig] pack.source = "C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.2.0\Middlewares\ST\MotorControl" 
+2018-09-24 12:32:50,567 DEBUG [ArgsValue.readPropertiesFile] [UserConfig] do not exist in "C:\Users\giusy poidomani\.st_motor_control\wb2mx.properties" 
+2018-09-24 12:32:50,567 DEBUG [ArgsValue.getConfigProperties] pack.source = "../../../../Middlewares/ST/MotorControl"
+2018-09-24 12:32:50,598 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.wb_def
+2018-09-24 12:32:50,598 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc
+2018-09-24 12:32:50,598 DEBUG [ArgsValue.retrieve] {xdm=C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.wb_def, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc, pack=../../../../Middlewares/ST/MotorControl, ftl=templates/wb_ioc_template.ftl}
+2018-09-24 12:32:50,645 DEBUG [WindowsCubeMxFinder.lambda$findThem$2] Found 32-bit subkey HKEY_LOCAL_MACHINE\~~~\Uninstall\STM32CubeMX
+2018-09-24 12:32:50,645 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2018-09-24 12:32:50,645 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2018-09-24 12:32:56,203 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 4.26.0-RC4
+2018-09-24 12:32:56,390 DEBUG [EnvironmentChecker.checkPack] Waiting for updater to end working process
+2018-09-24 12:32:56,499 DEBUG [EnvironmentChecker.checkPack] Updater now available
+2018-09-24 12:32:56,499 DEBUG [RetrieveFirmwareVersion.from_PackConfig_xfile] Looking for version from MotorControl_Configs.xml: C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.2.0\Middlewares\ST\MotorControl\MotorControl_Configs.xml
+2018-09-24 12:32:56,530 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 5.2.0
+2018-09-24 12:32:56,530 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2018-09-24 12:32:56,530 DEBUG [EnvironmentChecker.deploy_MCPack_to_MxRepo] Expected MC Pack 5.2.0 already deployed
+2018-09-24 12:32:56,530 DEBUG [EnvironmentChecker.checkPack] Open proxy settings window
+2018-09-24 12:32:58,856 DEBUG [DataSetUpdater.update] Updating data set
+2018-09-24 12:32:58,856 DEBUG [DataSetUpdater.update] Update done
+2018-09-24 12:32:58,856 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2018-09-24 12:32:58,856 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 5.2.0.18503
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 0.13.3.template-18-08-02
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 4.26.0
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 5.2.0
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo] Generation options: 
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : IAR EWARM
+2018-09-24 12:32:58,871 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : HAL - Hardware Abstraction Layer
+
+2018-09-24 12:32:58,871 DEBUG [IocGenerator.process] Generating ioc file: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc
+2018-09-24 12:32:58,887 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_template.ftl
+2018-09-24 12:32:59,808 DEBUG [IocGenerator.process] Generated ioc file C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc
+2018-09-24 12:32:59,824 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated ioc: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\SDK5x - STEVAL-SPIN3201 - BullRunning.ioc
+2018-09-24 12:32:59,839 INFO  [Wb2MxProcess.lambda$create_extSettings_file_in$82c805cd$1] Generated C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\.extSettings
+2018-09-24 12:33:00,106 DEBUG [CubeMxRunner.create_code_generation_script_for] Generated CubeMx script file: C:\Users\GIUSYP~1\AppData\Local\Temp\WB_to_Mx-sdkxstevalspinbullrunning-8823785406180099894.script
+2018-09-24 12:33:00,121 DEBUG [SignalCatcher.listenTo] Listen to signal INT
+2018-09-24 12:33:00,121 DEBUG [SignalCatcher.listenTo] Listen to signal TERM
+2018-09-24 12:33:00,121 INFO  [CubeMxRunner.run$] Code generation started
+2018-09-24 12:33:00,358 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,358 [INFO] MicroXplorer:478 - Detected Java Version = 1.8.0_131
+2018-09-24 12:33:00,358 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,358 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX
+2018-09-24 12:33:00,374 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,374 [INFO] DbMcusXml:68 - Set database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2018-09-24 12:33:00,374 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,374 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2018-09-24 12:33:00,374 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,374 [INFO] DbMcus:256 - Set plugin images path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-24 12:33:00,374 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,374 [INFO] DbBoards:230 - Set plugin images path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-24 12:33:00,374 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,374 [INFO] APIGFXSelector:72 - Set database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-09-24 12:33:00,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,389 [INFO] DbMcusAds:72 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:00,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,389 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:00,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,389 [INFO] DbMcusJson:58 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:00,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,389 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:00,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,389 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:00,514 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,514 [INFO] RulesReader:53 - Compatibility file has been processed (125 Rules)
+2018-09-24 12:33:00,545 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,545 [INFO] STM32CubeMX:30 - Starting STM32CubeMX
+2018-09-24 12:33:00,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:00,701 [INFO] MainPanel:116 - HeapMemory: 16252928
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbMcusXml:68 - Set database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbMcus:256 - Set plugin images path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbBoards:230 - Set plugin images path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] APIGFXSelector:72 - Set database path to: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbMcusAds:72 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbMcusDocs:86 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbMcusJson:58 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbBoardsDocs:78 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:01,077 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,077 [INFO] DbBoardsJson:53 - Set database path to: C:\Users\giusy poidomani\.stmcufinder\plugins\mcufinder//mcu/
+2018-09-24 12:33:01,092 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,092 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX
+2018-09-24 12:33:01,092 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,092 [INFO] PluginManage:141 - Search for loadable plugins [exclusion list=]
+2018-09-24 12:33:01,092 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,092 [INFO] PluginManage:263 - Check plugin clock
+2018-09-24 12:33:01,124 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,124 [INFO] PluginManage:308 - Loaded plugin clock (category:clock,tabindex:1)
+2018-09-24 12:33:01,124 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,124 [INFO] PluginManage:263 - Check plugin filemanager
+2018-09-24 12:33:01,155 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,155 [INFO] PluginManage:308 - Loaded plugin filemanager (category:base,tabindex:10)
+2018-09-24 12:33:01,155 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,155 [INFO] PluginManage:263 - Check plugin ipmanager
+2018-09-24 12:33:01,170 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,170 [INFO] PluginManage:308 - Loaded plugin ipmanager (category:base,tabindex:2)
+2018-09-24 12:33:01,170 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,170 [INFO] PluginManage:263 - Check plugin pinoutconfig
+2018-09-24 12:33:01,186 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,186 [INFO] PluginManage:308 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2018-09-24 12:33:01,186 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,186 [INFO] PluginManage:263 - Check plugin power
+2018-09-24 12:33:01,264 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,264 [INFO] PluginManage:308 - Loaded plugin power (category:power,tabindex:3)
+2018-09-24 12:33:01,264 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,264 [INFO] PluginManage:263 - Check plugin projectmanager
+2018-09-24 12:33:01,342 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,342 [INFO] PluginManage:308 - Loaded plugin projectmanager (category:projectmanager,tabindex:11)
+2018-09-24 12:33:01,342 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,342 [INFO] PluginManage:263 - Check plugin thirdparty
+2018-09-24 12:33:01,389 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,389 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/giusy poidomani/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 16 ms. number of Sw pack : 1
+2018-09-24 12:33:01,404 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,404 [INFO] PluginManage:308 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2018-09-24 12:33:01,404 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,404 [INFO] PluginManage:263 - Check plugin updater
+2018-09-24 12:33:01,404 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,404 [INFO] Updater:171 - Updater Version found : 4.26.0
+2018-09-24 12:33:01,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,529 [INFO] MainUpdater:193 - Updater Check For Update Now.
+2018-09-24 12:33:01,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,529 [INFO] MicroXplorer:338 - Change Default Database Version : DB.4.0.260
+2018-09-24 12:33:01,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,529 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-09-24 12:33:01,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,529 [INFO] PluginManage:308 - Loaded plugin updater (category:base,tabindex:12)
+2018-09-24 12:33:01,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,529 [INFO] PluginManage:236 - PluginManage : ReOrganize retry [4x]
+2018-09-24 12:33:01,560 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,560 [INFO] CheckServerUpdateThread:121 - End of CheckServer Thread
+2018-09-24 12:33:01,623 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,623 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-24 12:33:01,654 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,654 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2018-09-24 12:33:01,654 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,654 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2018-09-24 12:33:01,654 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,654 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2018-09-24 12:33:01,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,670 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2018-09-24 12:33:01,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,670 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2018-09-24 12:33:01,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,670 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2018-09-24 12:33:01,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,670 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2018-09-24 12:33:01,685 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,685 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2018-09-24 12:33:01,685 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,685 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2018-09-24 12:33:01,685 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,685 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add gfxsimulator
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2018-09-24 12:33:01,701 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,701 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2018-09-24 12:33:01,716 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,716 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2018-09-24 12:33:01,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,732 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2018-09-24 12:33:01,872 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,872 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-09-24 12:33:01,872 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,872 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-09-24 12:33:01,872 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,872 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-24 12:33:01,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,998 [INFO] MicroXplorer:328 - Change Database Path : 
+2018-09-24 12:33:01,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,998 [INFO] MicroXplorer:358 - Change Database Version : DB.4.0.260
+2018-09-24 12:33:01,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,998 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-24 12:33:01,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:01,998 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 12032592 Bytes (22675456)
+2018-09-24 12:33:02,014 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:02,014 [INFO] OpenFileManager:257 - Change cursor
+2018-09-24 12:33:04,198 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,182 [INFO] ImportTextPane:155 - (OptionalMessage_WARN) Unknown mode (AF_PP) for pin (PB6)
+2018-09-24 12:33:04,198 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,198 [INFO] ImportTextPane:155 - (OptionalMessage_WARN) Unknown mode (AF_PP) for pin (PB7)
+2018-09-24 12:33:04,198 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,198 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2018-09-24 12:33:04,245 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,245 [INFO] ImportTextPane:155 - (OptionalMessage_INFO) Successful Mode recovery for pin (PB7) with mode (Asynchronous)
+2018-09-24 12:33:04,245 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,245 [INFO] ImportTextPane:155 - (OptionalMessage_INFO) Successful Mode recovery for pin (PB6) with mode (Asynchronous)
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC) currently not set
+2018-09-24 12:33:04,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,354 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC) currently not set
+2018-09-24 12:33:04,401 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,401 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/giusy poidomani/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2018-09-24 12:33:04,401 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,401 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/giusy poidomani/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 1
+2018-09-24 12:33:04,401 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,401 [INFO] ThirdPartyDb:263 - Close Third Party DataBase File (C:/Users/giusy poidomani/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2018-09-24 12:33:04,416 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,416 [INFO] IntegrityCheckThread:94 - End integrity checks thread
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CPU_CLK_48_MHZ)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (INRUSH_CURRLIMIT_AT_POWER_ON) has invalid value (true)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (INT_RC_OSC)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MAX_MODULATION_97_PER_CENT)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MC_WORKBENCH_VERSION)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MCU)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MOTOR_TYPE)
+2018-09-24 12:33:04,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_COMP_THRESHOLD)
+2018-09-24 12:33:04,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,510 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (OVERCURR_FEEDBACK_POLARITY) has invalid value (EMSTOP_ACTIVE_HIGH)
+2018-09-24 12:33:04,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,525 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_template_version)
+2018-09-24 12:33:04,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,525 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_version)
+2018-09-24 12:33:04,603 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,603 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation1 CH1) currently not set
+2018-09-24 12:33:04,603 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,603 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation2 CH2) currently not set
+2018-09-24 12:33:04,603 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,603 [INFO] ImportTextPane:155 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation3 CH3) currently not set
+2018-09-24 12:33:04,837 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,837 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 48018216 Bytes (83369984)
+2018-09-24 12:33:04,931 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:04,931 [INFO] ThirdPartyDb:293 - Open Third Party DataBase File (C:/Users/giusy poidomani/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 0 ms. number of Sw pack : 1
+2018-09-24 12:33:05,166 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:05,166 [INFO] ThirdParty:1112 - CMSIS Pack Vendor :STMicroelectronics BlueNRG-MS 1.0.0
+2018-09-24 12:33:05,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:05,306 [INFO] PinOutPanel:995 - setPackage(No Configuration,No Configuration)
+2018-09-24 12:33:05,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:05,306 [INFO] PinOutPanel:995 - setPackage(STM32F031C6Tx,LQFP48)
+2018-09-24 12:33:07,072 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:07,072 [INFO] UtilMem:74 - Before build in PCC Used Memory: 70601624 Bytes (83369984)
+2018-09-24 12:33:07,337 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:07,337 [INFO] SharedServices:56 - Folder for power plug-in: C:/Users/giusy poidomani/.stm32cubemx/plugins/power
+2018-09-24 12:33:07,337 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:07,337 [INFO] UtilMem:74 - After build in PCC Used Memory: 70063736 Bytes (83369984)
+2018-09-24 12:33:07,384 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:07,384 [INFO] OpenFileManager:275 - Restore cursor
+2018-09-24 12:33:07,431 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:07,431 [INFO] DbMcusXml:106 - Load MCU database from C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/families.xml
+2018-09-24 12:33:08,228 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:08,228 [INFO] DbMcusJson:86 - JSON generation date=Tue Apr 03 13:01:22 CEST 2018 (1522753282)
+2018-09-24 12:33:08,836 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:08,836 [INFO] DbMcus:186 - Found 1171 MCUs (1129 are supported by CubeMX, 1129 are visible in CubeMX)
+2018-09-24 12:33:08,836 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:08,836 [INFO] ApiDb:157 - Load user favorites file C:\Users\giusy poidomani/.stm32cubemx/favorites.mcus.txt: 0 item(s)
+2018-09-24 12:33:08,836 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:08,836 [INFO] ApiDb:162 - User favorites MCUs=[]
+2018-09-24 12:33:08,836 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:08,836 [INFO] DbMcus:197 - Set 0 / 0 favorites MCUs
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,690 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 136450912 Bytes (244736000)
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: ADC
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: NVIC
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: MotorControl
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: SYS
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: USART
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: DMA
+2018-09-24 12:33:09,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,705 [INFO] BlockDiagram:1142 - set Specific Code input for plugin: TIM1_8F0
+2018-09-24 12:33:09,861 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:09,861 [INFO] CodeGenerator:498 - code generatio: config db path: C:\Program Files (x86)\STMicroelectronics\STM32Cube\STM32CubeMX\\db\
+2018-09-24 12:33:10,205 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:10,189 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\license.tmp_save
+2018-09-24 12:33:10,423 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:10,423 [INFO] CodeEngine:202 - Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\license.tmp
+2018-09-24 12:33:10,673 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:10,657 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\gpio.tmp_save
+2018-09-24 12:33:10,766 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:10,766 [INFO] CodeEngine:202 - Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\gpio.tmp
+2018-09-24 12:33:12,101 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,101 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\dma.tmp_save
+2018-09-24 12:33:12,164 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,164 [INFO] CodeEngine:202 - Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\dma.tmp
+2018-09-24 12:33:12,179 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,179 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\dma_GV.tmp_save
+2018-09-24 12:33:12,242 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,242 [INFO] CodeEngine:202 - Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\dma_GV.tmp
+2018-09-24 12:33:12,585 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,585 [INFO] ApiDbMcu:310 - Load IP Config File for MotorControl
+2018-09-24 12:33:12,632 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,632 [INFO] Middleware:1135 - No code input for Bsp Dependency
+2018-09-24 12:33:12,694 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,694 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\motorcontrol.c_save
+2018-09-24 12:33:12,756 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\motorcontrol.c
+2018-09-24 12:33:12,772 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,772 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\motorcontrol.h_save
+2018-09-24 12:33:12,834 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\motorcontrol.h
+2018-09-24 12:33:12,850 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,850 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\drive_parameters.h_save
+2018-09-24 12:33:12,944 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\drive_parameters.h
+2018-09-24 12:33:12,959 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:12,959 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_tasks.h_save
+2018-09-24 12:33:13,084 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_tasks.h
+2018-09-24 12:33:13,100 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,100 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_api.c_save
+2018-09-24 12:33:13,193 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_api.c
+2018-09-24 12:33:13,209 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,209 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\motor_control_protocol.c_save
+2018-09-24 12:33:13,302 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\motor_control_protocol.c
+2018-09-24 12:33:13,318 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,318 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_api.h_save
+2018-09-24 12:33:13,427 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_api.h
+2018-09-24 12:33:13,458 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,458 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_config.c_save
+2018-09-24 12:33:13,677 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_config.c
+2018-09-24 12:33:13,692 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,692 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_config.h_save
+2018-09-24 12:33:13,786 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_config.h
+2018-09-24 12:33:13,833 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,817 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_stm_types.h_save
+2018-09-24 12:33:13,895 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_stm_types.h
+2018-09-24 12:33:13,911 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:13,911 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_tasks.c_save
+2018-09-24 12:33:14,139 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_tasks.c
+2018-09-24 12:33:14,155 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,155 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\regular_conversion_manager.c_save
+2018-09-24 12:33:14,248 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\regular_conversion_manager.c
+2018-09-24 12:33:14,248 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,248 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\regular_conversion_manager.h_save
+2018-09-24 12:33:14,342 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\regular_conversion_manager.h
+2018-09-24 12:33:14,357 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,357 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\parameters_conversion.h_save
+2018-09-24 12:33:14,467 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\parameters_conversion.h
+2018-09-24 12:33:14,482 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,482 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\parameters_conversion_f0xx.h_save
+2018-09-24 12:33:14,560 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\parameters_conversion_f0xx.h
+2018-09-24 12:33:14,560 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,560 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\pmsm_motor_parameters.h_save
+2018-09-24 12:33:14,638 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\pmsm_motor_parameters.h
+2018-09-24 12:33:14,654 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,654 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\power_stage_parameters.h_save
+2018-09-24 12:33:14,732 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\power_stage_parameters.h
+2018-09-24 12:33:14,732 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,732 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_mc_it.c_save
+2018-09-24 12:33:14,841 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_mc_it.c
+2018-09-24 12:33:14,857 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,857 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_parameters.h_save
+2018-09-24 12:33:14,950 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\mc_parameters.h
+2018-09-24 12:33:14,966 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:14,966 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_parameters.c_save
+2018-09-24 12:33:15,075 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\mc_parameters.c
+2018-09-24 12:33:15,091 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,091 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\ui_task.c_save
+2018-09-24 12:33:15,153 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\ui_task.c
+2018-09-24 12:33:15,169 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,169 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\ui_task.h_save
+2018-09-24 12:33:15,247 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\ui_task.h
+2018-09-24 12:33:15,247 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,247 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\user_interface.c_save
+2018-09-24 12:33:15,356 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\user_interface.c
+2018-09-24 12:33:15,356 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,356 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\user_interface.h_save
+2018-09-24 12:33:15,449 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\user_interface.h
+2018-09-24 12:33:15,450 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,450 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_it.c_save
+2018-09-24 12:33:15,546 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_it.c
+2018-09-24 12:33:15,562 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,562 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\stm32f0xx_it.h_save
+2018-09-24 12:33:15,640 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\stm32f0xx_it.h
+2018-09-24 12:33:15,655 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,655 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_hal_msp.c_save
+2018-09-24 12:33:15,797 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\stm32f0xx_hal_msp.c
+2018-09-24 12:33:15,812 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,812 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\system.tmp_save
+2018-09-24 12:33:15,890 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,890 [INFO] CodeEngine:202 - Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\MXTmpFiles\system.tmp
+2018-09-24 12:33:15,906 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:15,906 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\stm32f0xx_hal_conf.h_save
+2018-09-24 12:33:15,980 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\stm32f0xx_hal_conf.h
+2018-09-24 12:33:16,011 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:16,011 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\main.h_save
+2018-09-24 12:33:16,089 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Inc\main.h
+2018-09-24 12:33:16,105 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:16,105 [INFO] CodeEngine:184 - oldGeneratedFile, C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\main.c_save
+2018-09-24 12:33:16,214 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\0-PROJECT\FOC PROJECT\STSW-SPN3201\SDK5x - STEVAL-SPIN3201 - BullRunning\Src\main.c
+2018-09-24 12:33:17,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:17,306 [INFO] ProjectBuilder:1234 - Time for Copy HAL[0] : 905mS.
+2018-09-24 12:33:17,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:17,306 [INFO] ProjectBuilder:1722 - Project Generator version: 2.29.1
+2018-09-24 12:33:17,322 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:17,322 [INFO] ConfigFileManager:635 - The Die is : DIE444
+2018-09-24 12:33:21,224 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:21,224 [INFO] ConfigFileManager:985 - mx.scratch is deleted!
+2018-09-24 12:33:21,224 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:21,224 [INFO] ProjectBuilder:1788 - Time for Generating toolchain IDE Files: 3918mS.
+2018-09-24 12:33:22,914 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:22,914 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 1690mS.
+2018-09-24 12:33:23,834 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2018-09-24 12:33:23,834 [INFO] ProjectBuilder:1138 - Time for Copy CMSIS : 920mS.
+2018-09-24 12:34:10,254 INFO  [Main.lambda$run$0] Code generation completed
+2018-09-24 12:34:10,254 DEBUG [Main.lambda$run$0] System exists with return code 0
